@@ -37,16 +37,224 @@
 
 
 /*--------------------------------------------------------------
-4.0 - ELEMENTS 
+1.0 - SETTINGS
 -------------------------------------------------------------- */
 
 /* -- FORMS -- */ 
 
 
 *{
+
+
+
+/*--------------------------------------------------------------
+2.0 - TOOLS
+-------------------------------------------------------------- */
+
+/* -- FORMS -- */ 
+
+
+/*--------------------------------------------------------------
+3.0 - GENERICS
+-------------------------------------------------------------- */
+
+/* -- FORMS -- */ 
 	-webkit-box-sizing: border-box;
 	-mox-box-string: border-box;
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
-	border-sizing: border-box;
+	box-sizing: border-box;
 }
+
+/*--------------------------------------------------------------
+4.0 - ELEMENTS 
+-------------------------------------------------------------- */
+
+/* -- FORMS -- */ 
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+	
+}.subhead{
+	font-weight: 800;
+	font-size: 20px;
+	
+}
+p{
+	font-family: Open-sans, sans-serif;
+	font-weight:400;
+	font-size: 12px;
+	color:#707070;
+}
+
+.row{
+	overflow: auto;
+}
+h1{
+	font-family: Open-Sans, sans-serif;
+	font-weight: 100;
+	font-size: 75px;
+	letter-spacing: 30px;
+	text-transform: capitalize;
+}
+#bg-3 h2, h1{
+	color: #fff;
+}
+#bg-2 h2, #bg-4 h2{
+	color:#75C7DB;
+}
+h2{
+	font-family: Open-sans, sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+}
+h3{
+	font-family: Open-sans, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+#bg-1 img{
+	float: left;
+}
+#bg-1{
+	background: url("../img/bg-1.png") no-repeat center;
+	-webkitz-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	text-align: center;
+	padding: 50px;
+	height: 900px;
+}
+#bg-2{
+	background: url("../img/bg-2.png") no-repeat center;
+	-webkitz-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	padding: 200px 0;
+	height: 900px;
+}
+#bg-3{
+	background: url("../img/bg-3.png") no-repeat center;
+	-webkitz-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	padding: 100px;
+	height: 900px;
+	
+}
+#bg-4{
+	background: url("../img/bg-4.png") no-repeat center;
+	-webkitz-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	padding: 100px 250px;
+	height: 900px;
+	
+}
+.col1-3{
+	float: left;
+	width: 200px;
+	margin: 150px 30px;
+	text-align: center;
+}
+.col-1-3{
+	float: left;
+	margin-top: 50px;
+	margin-left: 150px;	
+}
+
+.col-1-3:first-child p:nth-of-type(3){
+	background-color: #F89968;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+}
+.col-1-3:first-child p{
+	font-size: 10px;
+	color: #F89968;
+	border-radius: 100px;
+	border: thin solid ;
+	padding: 20px;
+}
+
+.col-1-3:last-child{
+	width: 300px;
+	
+}
+.col1-2{
+	width: 400px;
+	margin-top: 100px;
+	float:left;
+}
+
+.col1-2:last-child{
+	float: right;
+}
+.col1-2-2:first-child{
+	float:left;
+}
+
+.col1-2-2{
+	float:right;
+}
+footer{
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.5;
+}
+span, hr{
+	color: #fff;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+/*--------------------------------------------------------------
+5.0 - OBJECTS
+-------------------------------------------------------------- */
+
+/* -- FORMS -- */ 
+
+
+/*--------------------------------------------------------------
+6.0 - COMPONETS 
+-------------------------------------------------------------- */
+
+/* -- FORMS -- */ 
+nav{
+	float: right;
+	margin-right: 20px;
+}
+nav li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.btn{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff;
+	background-color: black;
+	border:thin solid;
+}
+	
+
+/*--------------------------------------------------------------
+7.0 - UTILITIES 
+-------------------------------------------------------------- */
+
+/* -- FORMS -- */ 
+
+
+
+
+
+
+
